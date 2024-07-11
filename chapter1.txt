@@ -1,0 +1,16 @@
+hola soy archivo que sera subido a git
+
+cd Desktop ==> moverse al escritorio mediante la terminal
+mkdir folderName ==> crear carpeta
+ls ==> mostrar el contenido de la carpeta
+ls -a ==> muestra incluso archivos ocultos
+touch fileName.xx ==> crear un archivo con .xx fotmato
+code fileName.xx ==> abrir con vs code el archivo fileName.xx
+
+git init ==> iniciar git
+git status ==> 
+git add fileName ==> agregar un archivo al "Staging Area" (documentos listos para hacer commit) 
+git add . ==> agregar al "Stagin area" todos los archivos en el directorio actual
+git commit ==> para hacer el commit a github
+git commit -m "bla bla" ==> agregar un mensaje en el commit
+git log ==> para ver que commit se ha hecho
