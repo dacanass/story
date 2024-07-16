@@ -14,3 +14,5 @@ git add . ==> agregar al "Stagin area" todos los archivos en el directorio actua
 git commit ==> para hacer el commit a github
 git commit -m "bla bla" ==> agregar un mensaje en el commit
 git log ==> para ver que commit se ha hecho
+git checkout ==> para descartar los cambios en el directorio de trabajo. Dar un paso atras (equivalente a un ctrl + z)
+gir diff fileName.xx ==> para comparar los ultimos cambios realizados
