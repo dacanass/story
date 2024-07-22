@@ -19,3 +19,8 @@ git diff fileName.xx ==> para comparar los ultimos cambios realizados
 
 -> Luego de crear el repositorio en Git hub, se deben subir los avances de nuestro repositorio local al repositorio remoto
 git push -u <remote name> <branch name>
+
+git ignore
+
+-> para descargar y crear una copia local de un repositorio remoto se usa el comando
+git clone url
