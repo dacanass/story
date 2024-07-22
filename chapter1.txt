@@ -35,3 +35,9 @@ git merge <nameOfBranch> ==> para agregar/sobreescribir los cambios realizados e
                             comando para salir => :q!
 
 cambio realizado en la rama basura
+
+-> Forking and Pull requests
+Forking: Es diferente a Clone, ya que clonar es crear una copia local, mientras Forking es crear una copia en el repositorio remoto.
+luego de haber hecho un Fork, se puede realiar un Clone de esta copia. Luego de haber solucionado bugs o haber hecho adiciones o mejoras,
+se puede realizar un Pull request, para agregar los cambios realizados en el codigo original. Este Pull request, debe ser evaluado y aceptado
+por el dueño del codigo original, por esto un Pull request es diferente a un Push
