@@ -22,5 +22,10 @@ git push -u <remote name> <branch name>
 
 git ignore
 
--> para descargar y crear una copia local de un repositorio remoto se usa el comando
+-> para descargar y crear una copia local de un repositorio remoto se usa el comando clone, debemos ubicarnos en el floder donde
+deseamos ubicar la copia del repositorio y desde ahi correr el comando
 git clone url
+
+-> Branching and Merging: to develope features and colaborates on a codebase
+git branch <nameOfBranch>
+git merge <nameOfBranch>
