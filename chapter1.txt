@@ -18,7 +18,7 @@ git checkout ==> para descartar los cambios en el directorio de trabajo. Dar un 
 git diff fileName.xx ==> para comparar los ultimos cambios realizados
 
 -> Luego de crear el repositorio en Git hub, se deben subir los avances de nuestro repositorio local al repositorio remoto
-git push -u <remote name> <branch name>
+git push -u <remoteName> <branchName>
 
 git ignore
 
@@ -27,5 +27,11 @@ deseamos ubicar la copia del repositorio y desde ahi correr el comando
 git clone url
 
 -> Branching and Merging: to develope features and colaborates on a codebase
-git branch <nameOfBranch>
-git merge <nameOfBranch>
+git branch <nameOfBranch> ==> para crear esta nueva rama
+git branch ==> para ver que ramas existen, el * nos indica en que rama estamos
+git checkout <nameOfBranch> ==> para cambiar de rama
+git merge <nameOfBranch> ==> para agregar/sobreescribir los cambios realizados en una rama a otra. 
+                            debo estar ubicado en la rama sobre la que quiero los cambios. 
+                            comando para salir => :q!
+
+cambio realizado en la rama basura
